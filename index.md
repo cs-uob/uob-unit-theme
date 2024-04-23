@@ -1,6 +1,8 @@
 ---
 layout: page
-title: test page
+title: Test Page
+nav: Test Page
+order: 1
 ---
 
 # Test Page

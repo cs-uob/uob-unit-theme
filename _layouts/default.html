@@ -12,13 +12,13 @@
   <body>
   
   <header>
-    <h1>{{ site.code }}</h1>
+    <a href="{{"/" | relative_url}}"><h1>{{ site.code }}</h1></a>
     <h2>{{ site.name }}</h2>
   </header>
   
   <div class="layout">
     <nav>
-
+        {%include nav.html %}
     </nav>
     <main>
       {{ content }}
