@@ -1,13 +1,8 @@
 ---
 ---
 
+@use 'colours';
 @import "normalize.css";
-
-$uob-red: #B01C2E;
-$uob-grey: #E5E6E5;
-
-$uob-purple: #9278D1;
-$uob-dark-purple: #42145F;
 
 html {
     font-family: Inter, sans-serif;
@@ -15,13 +10,13 @@ html {
 }
 
 header {
-    background: $uob-dark-purple;
+    background: colours.$uob-dark-purple;
     color: #ffffff;
     padding-left: 1ex;
 }
 
 nav {
-    border-right: 1px solid $uob-grey;
+    border-right: 1px solid colours.$uob-grey;
 
     @media (max-width: 999px) {
         display: none;
@@ -67,5 +62,5 @@ main h1, main h2, main h3, main h4 {
 }
 
 a, a:visited {
-    color: $uob-dark-purple;
+    color: colours.$uob-dark-purple;
 }
