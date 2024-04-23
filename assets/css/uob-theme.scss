@@ -2,7 +2,12 @@
 ---
 
 @import "normalize.css";
-@import "colours.scss";
+
+$uob-red: #B01C2E;
+$uob-grey: #E5E6E5;
+
+$uob-purple: #9278D1;
+$uob-dark-purple: #42145F;
 
 html {
     font-family: Inter, sans-serif;
