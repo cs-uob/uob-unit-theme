@@ -1,22 +1,11 @@
 ---
 layout: page
-title: Test Page
-nav: Test Page
 order: 1
+nav: UoB Unit Theme
 ---
 
-# Test Page
+# UoB Unit Theme
 
-Here is some body text.
+This is a jekyll (Github pages) theme for unit pages.
 
-And another paragraph.
-
-  - a list
-  - of items
-
-A long paragraph of text that is long enough that it will wrap over more than one line.
-A long paragraph of text that is long enough that it will wrap over more than one line.
-A long paragraph of text that is long enough that it will wrap over more than one line.
-A long paragraph of text that is long enough that it will wrap over more than one line.
-
-Follow [this link](/) to go back to the start.
+It provides a reasonable stylesheet and a navigation bar on the left on large screen sizes.

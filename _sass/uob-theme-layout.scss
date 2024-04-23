@@ -69,3 +69,60 @@ a, a:visited {
 nav li {
     list-style: none;
 }
+
+pre.highlight {
+    border: 1px solid $uob-grey;
+    padding: 1ex;
+}
+
+p > code {
+    border: 1px solid $uob-grey;
+    border-radius: 5px;
+    padding-left: 3px;
+    padding-right: 3px;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+th, td {
+    border: 1px solid $uob-grey;
+    padding-left: 1ex;
+    padding-right: 1ex;
+}
+
+blockquote {
+    border-left: 5px solid $uob-purple;
+    padding-left: 1em;
+}
+
+blockquote > p:first-child {
+    margin-top: 0;
+}
+
+blockquote > p:last-child {
+    margin-bottom: 0;
+}
+
+.info {
+    background-color: mix($uob-purple, white, 20%);
+    border-left: 3px solid $uob-dark-purple;
+    padding: 5px;
+    padding-left: 1em;
+}
+
+.warning {
+    background-color: mix($uob-red, white, 20%);
+    border-left: 3px solid $uob-red;
+    padding: 5px;
+    padding-left: 1em;
+}
+
+.warning::before {
+    content: "WARNING";
+    font-size: 0.8em;
+    display: block;
+    color: $uob-red;
+    font-weight: 600;
+}
