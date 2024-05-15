@@ -30,6 +30,11 @@ main > * {
     margin-right: 2rem;
 }
 
+main > ul, main > ol {
+    max-width: calc(50rem - 5em);
+    padding-inline-start: 5em;
+}
+
 .layout {
     display: grid;
     
